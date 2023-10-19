@@ -35,6 +35,6 @@ public class Main {
         int nbItems = 70;
         GeneticAlgo geneticAlgo2 = new GeneticAlgo(10+5*nbItems, randomItemsGen(nbItems));
 
-        Knapsack result2 = geneticAlgo2.train(10, 20);
+        Knapsack result2 = geneticAlgo2.train(50, 30);
     }
 }
